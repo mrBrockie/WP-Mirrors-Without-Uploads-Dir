@@ -1,4 +1,4 @@
-# Put this in the root of your mirror site
+# Put this in the root of your mirror site ** above ** the existing wordpress htaccess rules
 # and replace example.com with the actual live domain
 
 RewriteEngine On
