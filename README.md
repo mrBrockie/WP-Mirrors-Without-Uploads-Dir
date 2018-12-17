@@ -5,4 +5,4 @@ Sometimes duplicating a site over to a development mirror just to test a few cha
 Sometimes its just simply not practical to copy a clients entire uploads directory to a mirror location.
 
 This is simple .htaccess snippet to help set up your mirror without the uploads directory.
-All requests to the mirrors wp-content/uploads directory will be redirected to the live version IF the file doesn't exist already on the mirror.
+All requests to the mirrors wp-content/uploads directory will be redirected to the live version IF the file doesn't already exist on the mirrored site.
