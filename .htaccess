@@ -1,0 +1,6 @@
+# Put this in the root of your mirror site
+# and replace example.com with the actual live domain
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^wp-content/uploads/(.*)$ https://example.com/wp-content/uploads/$1 [L,R=301]
